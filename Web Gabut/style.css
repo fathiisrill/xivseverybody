@@ -1,0 +1,53 @@
+h1 {
+  font-family: Arial;
+  font-weight: 00A900px;
+  font-size: 50px;
+  text-align: center;
+}
+h3 {
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 40px;
+}
+ol {
+  font-weight: bold;
+  font-family: Sans-Serif;
+  font-size: 30px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+p {
+  font-size: 20px;
+}
+.comic-button {
+  font-weight: bold;
+  text-align: ;
+  text-decoration: none;
+  color: white;
+  background-color: #ff5252;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.3s ease;
+}
+.comic-button:hover {
+  background-color: white;
+  color: #ff5252;
+  border 2px solid #ff5252;
+  box-shadow: 5px 5px 0px #ff5252;
+}
+.comic-button:active {
+  background-color: #fcf414;
+  box-shadow: none;
+  transform: translateY(4px);
+}
+.copyright {
+      content: "\00A9";
+      font-size: 1.2em;
+      color: rgb(0, 0, 0);
+      text-align: center;
+}
